@@ -1,14 +1,78 @@
-<!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/mocas_beauty_public/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-    <script type="module" crossorigin src="/mocas_beauty_public/assets/index-CBS6YrlP.js"></script>
-    <link rel="stylesheet" crossorigin href="/mocas_beauty_public/assets/index-D8b4DHJx.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
   <body>
-    <div id="root"></div>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-white justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-white p-4 pb-2 justify-between">
+          <div class="text-[#171214] flex size-12 shrink-0 items-center" data-icon="List" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+              ></path>
+            </svg>
+          </div>
+          <h2 class="text-[#171214] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Moca's Beauty</h2>
+        </div>
+        <div class="@container">
+          <div class="@[480px]:px-4 @[480px]:py-3">
+            <div
+              class="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-white @[480px]:rounded-xl min-h-80"
+              style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 25%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBCEzJDC9RxS_89lSeOgtxOBYIt0wwQhTHhFSDPlOsTmZoNkS5WHxn3r2SP1GWGnnWbpFtK75vx0z5uMDZLaJqC2fcTgrOCsLzBdpIimht2OYAnC9aDKRqiCoZ9H-SR4-kKGLviQ1p6zRPThY6rIL0JTxJjcxsA6LJuso73cAjXd11XZ9uD8v4Lw2M6T8xJ8LbshPmUHGn398FlFc_cDSlqR0W-mx-_J64zWZoLWyPWSFDBerflZcQuF2AXQyqXKL-7adIzEWBhIwk");'
+            >
+              <div class="flex p-4"><p class="text-white tracking-light text-[28px] font-bold leading-tight">Welcome to Moca's Beauty</p></div>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-[#171214] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Services</h2>
+        <p class="text-[#171214] text-base font-normal leading-normal pb-3 pt-1 px-4">
+          We offer a range of aesthetic treatments including facials, skincare consultations, and advanced beauty procedures. Our experienced team is dedicated to enhancing your
+          natural beauty and well-being.
+        </p>
+        <h2 class="text-[#171214] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Before &amp; After</h2>
+        <div class="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCqkvoTXGQKM9z-lyhVMpdrD3b6T9h_kHaFubWj_9y9akxmviLiN_KS-ky03K4k7GLO_sdWfNgTGQO7er9KkYwT-vPJNuziu7dB5ijQel35cJjWH7c8unE7vpFXNiBS-cmMIWS5hPWRfFhXoQKaW0JlsK11qrEd4t0zNF364CeFMO2_Z8lF3_kpwip_-d-KQowEFZuYF4U9T3O80CynRNQYz7LLbwj1DIVb0tqV_Y1fv9WyKiRf2NeN7fPm44Ig_37TQfubQGnEESU");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-[#171214] text-base font-medium leading-normal line-clamp-1">Before &amp; After</p>
+            <p class="text-[#836771] text-sm font-normal leading-normal line-clamp-2">Facial Treatment</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDzdxvm9XmOOlEVIfdZx35OVqbHAj9E-EAG1IKufkbslV9W0OKYywvhH2GEV2Nt0PUoYcNcKSZOji21brN4bKg7_sKP0BeCNzelogEhb0okeeQ1k4XMyDn151DK_h5MRDDgadRWW1uPcps2KRGyvjNHr74SjFta8dMRlwSi9AJlav8PXll0drTuZjJ-tqDCiCnFLpGwATuzokw_BAkPc6eaQ-Y96OCUBxIGa2LGtHtgDscPf911cwBflqv_zTKBE_ahlFRLYHPEliU");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-[#171214] text-base font-medium leading-normal line-clamp-1">Before &amp; After</p>
+            <p class="text-[#836771] text-sm font-normal leading-normal line-clamp-2">Skincare Treatment</p>
+          </div>
+        </div>
+        <h2 class="text-[#171214] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Company Information</h2>
+        <p class="text-[#171214] text-base font-normal leading-normal pb-3 pt-1 px-4">
+          Moca's Beauty is a premier aesthetic salon dedicated to providing exceptional beauty treatments and personalized care. Our mission is to help you look and feel your best
+          through innovative techniques and a commitment to excellence.
+        </p>
+      </div>
+      <div><div class="h-5 bg-white"></div></div>
+    </div>
   </body>
 </html>
+
